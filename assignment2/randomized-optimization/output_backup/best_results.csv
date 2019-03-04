@@ -1,0 +1,5 @@
+problem,algorithm,params,best fitness,best iterations,best time,best fevals
+NN,GA,"['/NN', 'BankData', 'GA', '50', '20', '1']",1.0,390,2.8540745210000003,0
+NN,SA,"['/NN', 'BankData', 'SA', '0.1']",0.9904306220100001,420,0.684617809,0
+NN,Backprop,"['/NN', 'BankData', 'Backpro']",1.0,10,0.026673556,0
+NN,RHC,"['/NN', 'BankData', 'RH']",0.9760765550239999,500,0.689984404,0

@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f90475a0-469b-42ea-a8b8-8cb5502569a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/countones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/ABAGAIL.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/ABAGAIL.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/example/CountOnesEvaluationFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/example/CountOnesEvaluationFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuouspeaks.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuouspeaks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flipflop.py" beforeDir="false" afterPath="$PROJECT_DIR$/flipflop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/CONTPEAKS/CONTPEAKS_SA0.75_3_LOG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output_backup/CONTPEAKS/CONTPEAKS_SA0.75_3_LOG.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/best_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/best_results_raw.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/images/NN/Backprop_Fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_backup/images/NN/Backprop_Fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/images/NN/Best_Fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_backup/images/NN/Best_Fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/images/NN/GA_50_Score.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_backup/images/NN/GA_50_Score.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/images/NN/RHC_Fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_backup/images/NN/RHC_Fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/images/NN/SA_Accuracy.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_backup/images/NN/SA_Accuracy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_backup/timing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_jython.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_jython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsp.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsp.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/randomized_optimization$Unnamed.coverage" NAME="Yifan_debug Coverage Results" MODIFIED="1551239428717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="721260429">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="16" />
+          <entry key="java" value="23" />
+          <entry key="py" value="48" />
+          <entry key="sh" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Python" value="48" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="67" />
+          <entry key="py" value="2958" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="Python" value="2958" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/continuouspeaks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="109" column="33" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/src/shared/FixedIterationTrainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plotting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2637">
+              <caret line="422" column="20" selection-start-line="422" selection-start-column="20" selection-end-line="422" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="535" column="17" selection-start-line="535" selection-start-column="17" selection-end-line="535" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_experiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_GA_50_10_20_LOG.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="86" selection-start-column="86" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/countones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="108" column="40" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="40" />
+              <folding>
+                <marker date="1551594335901" expanded="true" signature="1420:1421" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="78" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/GenericOptimizationProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/ga/StandardGeneticAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2130">
+              <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>crossover</find>
+      <find>class DiscreteUniformDistribution</find>
+      <find>Instance</find>
+      <find>initial</find>
+      <find>GenericOptimizationProblem</find>
+      <find>rhc</find>
+      <find>write_to_file</find>
+      <find>multiple_trials</find>
+      <find>DS_NAME</find>
+      <find>sample</find>
+      <find>e</find>
+      <find>random</find>
+      <find>instance</find>
+      <find>run_jython</find>
+      <find>class GenericGeneticAlgorithmProblem</find>
+      <find>gap</find>
+      <find>class GenericOptimizationProblem</find>
+      <find>.value</find>
+      <find>eval</find>
+      <find>class StandardGeneticAlgorithm</find>
+      <find>getOptimal</find>
+      <find>run_ga</find>
+      <find>f1_tst</find>
+      <find>data</find>
+      <find>print</find>
+      <find>F1</find>
+      <find>datasets</find>
+      <find>BankData</find>
+      <find>trainer</find>
+      <find>_preprocess_data</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ABAGAIL/src/opt/example/CountOnesEvaluationFunction.java" />
+        <option value="$PROJECT_DIR$/run_jython.py" />
+        <option value="$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java" />
+        <option value="$PROJECT_DIR$/ABAGAIL/src/opt/ga/SingleCrossOver.java" />
+        <option value="$PROJECT_DIR$/ABAGAIL/src/opt/ga/StandardGeneticAlgorithm.java" />
+        <option value="$PROJECT_DIR$/base.py" />
+        <option value="$PROJECT_DIR$/countones.py" />
+        <option value="$PROJECT_DIR$/continuouspeaks.py" />
+        <option value="$PROJECT_DIR$/flipflop.py" />
+        <option value="$PROJECT_DIR$/tsp.py" />
+        <option value="$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteUniformDistribution.java" />
+        <option value="$PROJECT_DIR$/plotting.py" />
+        <option value="$PROJECT_DIR$/data/loader.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="69" />
+    <option name="y" value="52" />
+    <option name="width" value="1557" />
+    <option name="height" value="865" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="ABAGAIL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="ABAGAIL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="ABAGAIL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="output_backup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="output_backup" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomized-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomized-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="output_backup" type="462c0819:PsiDirectoryNode" />
+              <item name="NN_OUTPUT" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Yifan_debug">
+    <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <option name="PORT" value="22" />
+      <option name="HOST" value="localhost" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Yifan_debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="randomized-optimization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/Documents/fdrift-ui-refactor-mvc/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Yifan_debug" />
+      <item itemvalue="Python Remote Debug.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f90475a0-469b-42ea-a8b8-8cb5502569a4" name="Default Changelist" comment="" />
+      <created>1551152544078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551152544078</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="52" width="1557" height="865" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25808582" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32988358" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32986626" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003279" side_tool="true" weight="0.32986626" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49967214" weight="0.62354463" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32986626" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24983607" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plotting.py</url>
+          <line>631</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plotting.py</url>
+          <line>567</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plotting.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data/loader.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/parallel_atdd.sh" />
+    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="3045" column="40" selection-start-line="3045" selection-start-column="40" selection-end-line="3045" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_GA_50_10_10_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="502" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_GA_50_20_10_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199944087/_functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pendigits.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/EvaluationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanRouteEvaluationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/prob/GenericProbabilisticOptimizationProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanEvaluationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/example/TravelingSalesmanCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNBackprop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/test/TravelingSalesmanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/FLIPFLOP/FLIPFLOP_GA100_10_10_4_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/timing.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_RHC_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="103" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_SA_0.15_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="122" lean-forward="true" selection-start-line="1" selection-start-column="113" selection-end-line="1" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.14/Frameworks/Python.framework/Versions/2.7/lib/python2.7/Queue.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/setuptools/command/launcher manifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/example/ContinuousPeaksEvaluationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/example/CountOnesEvaluationFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/COUNTONES/COUNTONES_SA0.75_1_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/COUNTONES/COUNTONES_GA100_10_30_3_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNGA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/COUNTONES/COUNTONES_SA0.15_4_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/COUNTONES/COUNTONES_GA100_10_10_1_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/COUNTONES/COUNTONES_SA0.55_1_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7530">
+          <caret line="502" selection-start-line="502" selection-end-line="502" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/DiscreteChangeOneNeighbor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/ga/SingleCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/OptimizationAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flipflop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/dist/DiscreteUniformDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/shared/Instance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="108" column="40" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="40" />
+          <folding>
+            <marker date="1551594335901" expanded="true" signature="1420:1421" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/ga/GenericGeneticAlgorithmProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/GenericOptimizationProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/opt/ga/StandardGeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_jython.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="138" column="47" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_GA_50_20_20_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_backup/NN_OUTPUT/NN_BankData_GA_50_10_20_LOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="86" selection-start-column="86" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2637">
+          <caret line="422" column="20" selection-start-line="422" selection-start-column="20" selection-end-line="422" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/shared/FixedIterationTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/continuouspeaks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="109" column="33" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="535" column="17" selection-start-line="535" selection-start-column="17" selection-end-line="535" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
