@@ -1,0 +1,85 @@
+import json
+import os
+import time
+import numpy as np
+
+from .base import BaseExperiment, OUTPUT_DIR
+
+import solvers
+
+
+# Constants (default values unless provided by caller)
+MAX_STEPS = 2000
+NUM_TRIALS = 100
+DISCOUNT_MIN = 0
+DISCOUNT_MAX = 0.9
+NUM_DISCOUNTS = 10
+THETA = 0.0001
+
+
+VI_DIR = os.path.join(OUTPUT_DIR, 'VI')
+if not os.path.exists(VI_DIR):
+    os.makedirs(VI_DIR)
+PKL_DIR = os.path.join(VI_DIR, 'pkl')
+if not os.path.exists(PKL_DIR):
+    os.makedirs(PKL_DIR)
+IMG_DIR = os.path.join(os.path.join(OUTPUT_DIR, 'images'), 'VI')
+if not os.path.exists(IMG_DIR):
+    os.makedirs(IMG_DIR)
+
+
+class ValueIterationExperiment(BaseExperiment):
+
+    def __init__(self, details, verbose=False, max_steps = MAX_STEPS, num_trials = NUM_TRIALS, theta = THETA): # max_steps = 200, num_trials=100, theta = 0.00001
+        super(ValueIterationExperiment, self).__init__(details, verbose, max_steps)
+        self._num_trials = num_trials
+        self._theta = theta
+
+    def convergence_check_fn(self, solver, step_count):
+        return solver.has_converged()
+
+    def perform(self):
+        # Value iteration
+        self._details.env.reset()
+        map_desc = self._details.env.unwrapped.desc
+
+        grid_file_name = os.path.join(VI_DIR, '{}_grid.csv'.format(self._details.env_name))
+        with open(grid_file_name, 'w') as f:
+            f.write("params,time,steps,reward_mean,reward_median,reward_min,reward_max,reward_std\n")
+
+        discount_factors = np.round(np.linspace(DISCOUNT_MIN, max(DISCOUNT_MIN, DISCOUNT_MAX), num = NUM_DISCOUNTS), 2)
+        dims = len(discount_factors)
+        self.log("Searching VI in {} dimensions".format(dims))
+
+        runs = 1
+        for discount_factor in discount_factors:
+            t = time.clock()
+            self.log("{}/{} Processing VI with discount factor {}".format(runs, dims, discount_factor))
+
+            v = solvers.ValueIterationSolver(self._details.env, discount_factor=discount_factor, theta=self._theta)
+
+            stats = self.run_solver_and_collect(v, self.convergence_check_fn) # up to 200 iterations, run VI
+
+            self.log("Took {} steps".format(len(stats.steps))) # number of iterations ran
+            stats.to_csv(os.path.join(VI_DIR, '{}_{}.csv'.format(self._details.env_name, discount_factor)))
+            stats.pickle_results(os.path.join(PKL_DIR, '{}_{}_{}.pkl'.format(self._details.env_name, discount_factor, '{}')), map_desc.shape)
+            stats.plot_policies_on_map(os.path.join(IMG_DIR, '{}_{}_{}.png'.format(self._details.env_name, discount_factor, '{}_{}')),
+                                       map_desc, self._details.env.colors(), self._details.env.directions(),
+                                       'Value Iteration', 'Step', self._details, only_last=True) # plot final policy and final utilities computed by VI
+
+            optimal_policy_stats = self.run_policy_and_collect(v, stats.optimal_policy, self._num_trials) # run the policy on the environment num_trial times and return object containing average step reward in each trial and average step reward averaged over trials
+            self.log('{}'.format(optimal_policy_stats))
+            optimal_policy_stats.to_csv(os.path.join(VI_DIR, '{}_{}_optimal.csv'.format(self._details.env_name, discount_factor))) # average step reward averaged over increasing num_trials
+            with open(grid_file_name, 'a') as f:
+                f.write('"{}",{},{},{},{},{},{},{}\n'.format(
+                    json.dumps({'discount_factor': discount_factor}).replace('"', '""'),
+                    time.clock() - t,
+                    len(optimal_policy_stats.rewards), # number of trials
+                    optimal_policy_stats.reward_mean, # average step reward averaged over 200 trials
+                    optimal_policy_stats.reward_median,
+                    optimal_policy_stats.reward_min,
+                    optimal_policy_stats.reward_max,
+                    optimal_policy_stats.reward_std,
+                ))
+            runs += 1
+
